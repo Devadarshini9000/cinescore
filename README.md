@@ -33,40 +33,40 @@ The project uses Random Forest Regression and provides an interactive **Streamli
 
 ## 🔍 How It Works
 
-### 1. Data Preprocessing (movie_preprocess.py)
+## 1. Data Preprocessing (movie_preprocess.py)
 Cleans column names and missing values
 Extracts Year and Duration from strings
 Fills missing categorical fields with "Unknown"
 Converts votes and ratings to numeric values
 Saves cleaned dataset as Cleaned_IMDb_Movies_India.csv
 
-### 2. Model Training (movie_train.py)
+## 2. Model Training (movie_train.py)
 Encodes categorical features (Director, Actor 1–3)
 One-hot encodes genres into binary columns
 Selects relevant features and trains Random Forest
 Saves model, encoders, genres, and feature list to movie_model.pkl
 
-### 3. Prediction Web App (movie_test.py)
+## 3. Prediction Web App (movie_test.py)
 Loads saved model and encoders
 Takes user inputs for year, duration, genre, director, and actors
 Encodes features and predicts rating in real-time
 Displays result with rating scale and feedback
 
-### 🖥 How to Run
+## 🖥 How to Run
 
-### 1️⃣ Clone the Repo
+## 1️⃣ Clone the Repo
 git clone https://github.com/yourusername/imdb-movie-rating-predictor.git
 cd imdb-movie-rating-predictor
-### 2️⃣ Install Requirements
+## 2️⃣ Install Requirements
 pip install pandas scikit-learn streamlit numpy
-### 3️⃣ Run Preprocessing
+## 3️⃣ Run Preprocessing
 python movie_preprocess.py
-### 4️⃣ Train Model
+## 4️⃣ Train Model
 python movie_train.py
-### 5️⃣ Run Web App
+## 5️⃣ Run Web App
 streamlit run movie_test.py
 
-#### 💡 Use Cases
+## 💡 Use Cases
 
 - Pre-release Rating Forecast – Predict a movie’s potential IMDb rating before release based on cast, crew, and genre.
 - Script & Casting Decisions – Help producers decide on directors and actors likely to improve audience ratings.
