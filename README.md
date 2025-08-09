@@ -5,14 +5,14 @@ The project uses Random Forest Regression and provides an interactive **Streamli
 
 ## 🚀 Features
 
-- 🧹 Data Preprocessing – Cleans and formats IMDb dataset (handles missing values, standardizes text, extracts year/duration)
-- 🎭 Categorical Encoding – Encodes directors and actors using Label Encoding
-- 🎬 Genre Feature Engineering – Creates binary columns for each genre from multi-genre entries
-- 📊 Model Training – Trains a Random Forest Regressor on cleaned data
-- 📁 Model Saving – Stores trained model, encoders, and feature columns in a pickle file
-- 🌐 Interactive Web App – Built with Streamlit for easy predictions
-- 📈 Real-time Rating Prediction – Predicts IMDb rating based on user inputs
-- ⭐ User Feedback & Visuals – Displays prediction result, progress bar, and feedback messages (blockbuster, promising, needs improvement)
+- Data Preprocessing – Cleans and formats IMDb dataset (handles missing values, standardizes text, extracts year/duration)
+- Categorical Encoding – Encodes directors and actors using Label Encoding
+- Genre Feature Engineering – Creates binary columns for each genre from multi-genre entries
+- Model Training – Trains a Random Forest Regressor on cleaned data
+- Model Saving – Stores trained model, encoders, and feature columns in a pickle file
+- Interactive Web App – Built with Streamlit for easy predictions
+- Real-time Rating Prediction – Predicts IMDb rating based on user inputs
+- User Feedback & Visuals – Displays prediction result, progress bar, and feedback messages (blockbuster, promising, needs improvement)
 
 ## 📂 Project Structure
 
