@@ -1,4 +1,4 @@
-# Cinescore - 🎬 IMDb Movie Rating Predictor (Indian Movies)
+# cinescore - 🎬 IMDb Movie Rating Predictor (Indian Movies)
 
 **Cinescore - IMDb Movie Rating Predictor** is a **machine learning web application** project designed to predict the IMDb rating of Indian movies based on various attributes like year, duration, genre, director, and actors.
 The project uses Random Forest Regression and provides an interactive **Streamlit interface** for real-time predictions.
